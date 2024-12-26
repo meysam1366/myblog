@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('categories', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('parent_id')->nullable()->constrained();
+            $table->foreignId('parent_id')->nullable()->constrained('categories');
             $table->boolean('status');
             $table->timestamps();
         });
