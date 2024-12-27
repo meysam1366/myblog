@@ -402,3 +402,8 @@
         <!-- End Recent Support Tickets Section -->
     </div>
 @endsection
+
+@section('scripts')
+    <script src="/assets/js/vendor/apexcharts.min.js"></script>
+    <script src="/assets/js/pages/dashboard-admin-lms.js"></script>
+@endsection

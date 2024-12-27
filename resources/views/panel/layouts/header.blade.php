@@ -11,8 +11,8 @@
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
     <!-- Style CSS -->
-    <link rel="stylesheet" href="/assets/css/output.css">
     @yield('styles')
+    <link rel="stylesheet" href="/assets/css/output.css">
 </head>
 <body class="bg-body-light dark:bg-dark-body group-data-[theme-width=box]:container group-data-[theme-width=box]:max-w-screen-3xl xl:group-data-[theme-width=box]:px-4">
 <div id="loader" class="w-screen h-screen flex-center bg-white dark:bg-dark-card fixed inset-0 z-[9999]">
